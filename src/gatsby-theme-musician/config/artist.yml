@@ -1,6 +1,6 @@
 artist:
-  name: Your Awesome Band
-  tagline: Short information about your group, new album, etc
+  name: Cosmic Cowboy Media
+  tagline: Singer, Songwriter, Podcaster, Master of Ceremonies
   # seo_title:
   # seo_description:
   # contact_twitter_username:
@@ -9,14 +9,14 @@ artist:
 
 social:
   - name: Facebook
-    url: https://facebook.com
+    url: https://www.facebook.com/TheMockingbirdPodcast/
   - name: Instagram
-    url: https://instagram.com
+    url: https://www.instagram.com/mockingbirdmedia/
   - name: Twitter
-    url: https://twitter.com
+    url: https://twitter.com/gshaddixmusic
   - name: Youtube
-    url: https://youtube.com
+    url: https://www.youtube.com/channel/UC-6_oRtq4a_EGpr2DYw_RGA/
   - name: Spotify
-    url: https://spotify.com
+    url: https://open.spotify.com/album/0o8UuUJlwQw6psy4fyUOnl
 
 site_language: en
