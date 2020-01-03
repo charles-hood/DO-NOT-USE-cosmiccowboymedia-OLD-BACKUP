@@ -90,4 +90,4 @@ const ShowItemV2 = ({ id, name, date, location, info_url, map_url, locale }) => 
   )
 }
 
-export default ShowItem
+export default ShowItemV2
