@@ -22,7 +22,7 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
           sx={{ variant: "components.show.date.month" }}
         >
           {" "}
-          {new Date(date).toLocaleDateString("en-GB", {
+          {new Date(date).toLocaleDateString("en-US", {
             month: "short",
           })}{" "}
         </span>
@@ -30,7 +30,7 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
           className="GtmShowItem__day"
           sx={{ variant: "components.show.date.day" }}
         >
-          {new Date(date).toLocaleDateString("en-GB", {
+          {new Date(date).toLocaleDateString("en-US", {
             day: "numeric",
           })}
         </span>
