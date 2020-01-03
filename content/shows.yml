@@ -1,15 +1,14 @@
-- name: Sample Show 1
-  date: "2019-08-10"
-  location: Venue Name, Address, City/Region
-  # info_url and map_url are optional
-  info_url: https://facebook.com/events
-  map_url: https://maps.google.com
+- name: The Mockingbird Podcast with Kelley Bostain
+  date: "2020-01-06"
+  location: The Mockingbird Studio
+  info_url: 
+  
+- name: Greg Shaddix Hosts "The Battle of The Bands"
+  date: "2020-01-09"
+  location: MadLife Stage and Studios, Woodstock, Georgia
+  info_url: https://www.facebook.com/events/529081501191958/
 
-- name: Sample Show 2
-  date: "2019-08-31"
-  location: Venue Name, Address, City/Region
-  info_url: https://facebook.com/events
-
-- name: Sample Show 3
-  date: "2019-09-02"
-  location: Venue Name, Address, City/Region
+- name: Greg Shaddix Hosts The Undiscovered Artists Series
+  date: "2020-01-15"
+  location: MadLife Stage and Studios, Woodstock, Georgia
+  info_url: https://www.facebook.com/events/1192807364239090/
