@@ -31,8 +31,8 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
           sx={{ variant: "components.show.date.day" }}
         >
           {new Date(date).toLocaleDateString("en-GB", {
-            day: "numeric" - 1,
-          })}
+            day: "numeric",
+          }-1)}
         </span>
       </time>
       <div sx={{ variant: "components.show.colWrapper" }}>
