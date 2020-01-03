@@ -1,4 +1,6 @@
 navigation:
+  - text: Videos
+    url: "#videos"
   - text: Shows
     url: "#shows"
   - text: Contact
