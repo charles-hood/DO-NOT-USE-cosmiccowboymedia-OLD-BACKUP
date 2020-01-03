@@ -9,7 +9,7 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
     <li key={id} className="GtmShowItem" sx={{ variant: "components.show" }}>
       <time
         dateTime={date}
-        aria-label={new Date(date).toLocaleDateString({
+        aria-label={new Date(date).toLocaleDateString("en-GB", {
           day: "numeric",
           month: "long",
           year: "numeric",
@@ -22,7 +22,7 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
           sx={{ variant: "components.show.date.month" }}
         >
           {" "}
-          {new Date(date).toLocaleDateString({
+          {new Date(date).toLocaleDateString("en-GB", {
             month: "short",
           })}{" "}
         </span>
@@ -30,7 +30,7 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
           className="GtmShowItem__day"
           sx={{ variant: "components.show.date.day" }}
         >
-          {new Date(date).toLocaleDateString({
+          {new Date(date).toLocaleDateString("en-GB", {
             day: "numeric",
           })}
         </span>
@@ -53,7 +53,7 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
               <>
                 {" "}
                 &middot;{" "}
-                <Styled.a href={info_url} rel="external nofollow">
+                <Styled.a href={map_url} rel="external nofollow">
                   <strong>Map</strong>
                 </Styled.a>
               </>
