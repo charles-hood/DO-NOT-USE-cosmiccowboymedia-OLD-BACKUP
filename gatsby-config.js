@@ -9,7 +9,7 @@ module.exports = {
   siteMetadata: {
     title: "Cosmic Cowboy Media",
     description: "",
-    siteUrl: "https://github.com/ekafyi/starter-musician-theme"
+    siteUrl: "https://cosmiccowboymedia.com"
   },
   plugins: [
     // Add gatsby-theme-musician to your site
