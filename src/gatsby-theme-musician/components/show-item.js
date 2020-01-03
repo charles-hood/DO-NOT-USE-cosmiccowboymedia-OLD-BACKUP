@@ -4,15 +4,16 @@
 import React from "react"
 import { Styled, jsx } from "theme-ui"
 
-const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
+const ShowItem = ({ id, name, date, location, info_url, map_url, locale }) => {
   return (
     <li key={id} className="GtmShowItem" sx={{ variant: "components.show" }}>
       <time
         dateTime={date}
-        aria-label={new Date(date).toLocaleDateString("en-GB", {
+        aria-label={new Date(date).toLocaleDateString("en-US", {
           day: "numeric",
           month: "long",
           year: "numeric",
+          timeZone: 'UTC',
         })}
         className="GtmShowItem__date"
         sx={{ variant: "components.show.date" }}
@@ -22,16 +23,18 @@ const ShowItem = ({ id, name, date, location, info_url, map_url }) => {
           sx={{ variant: "components.show.date.month" }}
         >
           {" "}
-          {new Date(date).toLocaleDateString("en-GB", {
+          {new Date(date).toLocaleDateString("en-US", {
             month: "short",
+            timeZone: 'UTC',
           })}{" "}
         </span>
         <span
           className="GtmShowItem__day"
           sx={{ variant: "components.show.date.day" }}
         >
-          {new Date(date).toLocaleDateString("en-GB", {
+          {new Date(date).toLocaleDateString("en-US", {
             day: "numeric",
+            timeZone: 'UTC',
           })}
         </span>
       </time>
