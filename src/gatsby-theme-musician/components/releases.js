@@ -8,7 +8,7 @@ import Grids from "./grids"
 import LandingSectionTitle from "./landing-section-title"
 import ReleaseItem from "./release-item"
 
-const Releases = ({ releases = [], columns, locale = "en-US" }) => {
+const ReleasesV2 = ({ releases = [], columns, locale = "en-US" }) => {
   // Use text label from YAML config
   let sectionTitle = "Releases"
   const { textLabels } = useSiteMetadata()
@@ -53,4 +53,4 @@ const Releases = ({ releases = [], columns, locale = "en-US" }) => {
   )
 }
 
-export default Releases
+export default ReleasesV2
