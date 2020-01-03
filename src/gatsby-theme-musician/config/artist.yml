@@ -1,11 +1,11 @@
 artist:
   name: Cosmic Cowboy Media
   tagline: Greg Shaddix - podcaster, songwriter & maker of balloon animals out of the truth
-  seo_title: Singer, Songwriter, Podcaster
+  seo_title: Podcaster, Singer, Songwriter
   # seo_description:
-  # contact_twitter_username:
+  contact_twitter_username: gshaddixmusic
   # contact_phone: 
-  # contact_email: 
+  contact_email: cosmiccowboymedia@gmail.com
 
 social:
   - name: Facebook
