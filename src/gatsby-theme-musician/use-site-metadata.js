@@ -12,7 +12,7 @@ function hasObjectAndLength(parentObj, childObjKey) {
 }
 
 export default () => {
-  const { site, bannerImg, socialImg, logoImg } = useStaticQuery(siteQuery)
+  const { site, bannerImg, socialImg, logoImg } = useStaticQuery(siteQueryV2)
 
   /**
    * Prepare custom data from YAML config files.
@@ -67,7 +67,7 @@ export default () => {
   return site.siteMetadata
 }
 
-const siteQuery = graphql`
+const siteQueryV2 = graphql`
   query SiteQuery {
     site {
       siteMetadata {
